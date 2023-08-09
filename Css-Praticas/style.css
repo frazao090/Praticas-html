@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* position - (static , relative , fixed , absolute, stick)
+text-transforme - ( transforma todas as letras em maiusculas ou minusculas ou toda primeira letra maiuscula)
+Spacing - espaçõ entre as letras ou entre os paragrafos
+
+exemplos - (link não visitado)
+a:link {color:red}
+
+(link visitado)
+a:visited {color green}
+
+(link selecionado}
+a:active {blue}
+
+list-style - define todas as propriedades de uma lista em uma declaração.
+
+list-style-image - especifica uma imagem como marcador de item de lista.
+
+list-style-position - especifica a posição dos marcadores de item de lista
+
+list-style-type - especifica o tipode marcador de uma lista.
+
+*/
+body {
+    background-image:linear-gradient(to right, rgb(22, 73, 128), rgb(151, 85, 149));
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: inline-block;
+    
+}
+h1#cadastro {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+header {
+    display: inline-block;
+   
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.p1,.p2,.p3 {
+    border-style: double;
+    margin: 20px 0px 30px 10px;
+    text-align: justify;
+    padding: 20px;
+    width: 30%;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.p2 {
+    border-style: dotted;
+   
+}
+
+.p3 {
+    outline: black 1px solid;
+    border-style: ridge;
+   
+}
+
+#teste {
+    text-align: center;
+   
+}
+form {
+    
+    margin-right: 10px;
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-top: 10px;
+}
+
+form#formulario {
+  float: left;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+ol {
+    color: white;
+}
+
+p{
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+input.endereco {
+    width: 300px;
+    border-radius: 5px;
+}
+input#numero {
+    width:90px;
+    border-radius: 5px;
+}
+label.numero {
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.row,.col {
+    width: 100%;
+    
+}
+.form-control {
+    padding: 3px;
+    border-radius: 5px;
+}
+select {
+    margin-left: 10px;
+}
+.caixas {
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="..//bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <!--<input type="text" - exibe um campo de entrada de texto de linha unica
+    <input type="radio"- exibe um botão de opção(para selecionar uma das muitas opções)
+<input type="checkbox" - exibe uma caixa de seleção para selecionar zero ou mais opções
+<input type="submit" - exibe um botão de envio (para enviar o formulario)
+<input type="button" - exibe um botão clicavel-->
+</head>
+<h1>Formulários</h1>
+<body>
+    <form>
+        <label for="escolha1">Primeiro Nome:</label><br>
+        <input type="text" id="escolha1"><br>
+        
+        <input type="radio" name="escolha">
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="escolha">
+        <label for="Feminino">Feminino</label>
+        <br>
+        <input type="checkbox" name="check">
+        <label for="Carros">Uno</label>
+        <input type="checkbox" name="check">
+        <label for="Carros">Celta</label>
+        <input type="checkbox" name="check">
+        <label for="Carros">Fox</label>
+        <input type="checkbox" name="check">
+        <label for="Carros">Palio</label>
+
+        <input type="button" value="Enviar">
+
+        <input type="submit" value="Cadastrar">
+        <br><br>
+        <label for="Idiomas"> Selecione um idioma:</label>
+        <select id="idiomas" name="idiomas">
+            <option value="Inglês">Inglês</option>
+            <option value="Francês">Francês</option>
+            <option value="Alemão">Alemão</option>
+            <option value="Japonês" selected>Japonês</option>
+        </select>
+        <br>
+        <label for="texto" id="texto">Duvidas / Sugestões</label>
+        <Textarea name="texto" rows="8" cols="30">Digite seu texto aqui</Textarea>
+    </form>
+    
+    
+</body>
+</html>
